@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">webF1Movil1704</string>
+    <string-array name="emoji_list">
+        <item>🍕</item>
+        <item>🍔</item>
+        <item>🍣</item>
+        <item>🥗</item>
+        <item>🍝</item>
+        <item>🍰</item>
+        <item>🍺</item>
+        <item>🥤</item>
+    </string-array>
+</resources>
