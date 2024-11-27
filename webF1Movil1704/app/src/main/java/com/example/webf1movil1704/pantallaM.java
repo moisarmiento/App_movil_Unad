@@ -28,5 +28,9 @@ public class pantallaM  extends AppCompatActivity {
         Intent intent = new Intent(this, pantallaActualiz.class);//cambiar
         startActivity(intent);
     }
+    public void irABuscar(View v){
+        Intent intent = new Intent(this, pantallaBusca.class);//cambiar
+        startActivity(intent);
+    }
 
 }

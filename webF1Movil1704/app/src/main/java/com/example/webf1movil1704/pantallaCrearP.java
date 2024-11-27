@@ -32,7 +32,7 @@ public class pantallaCrearP extends BaseActivityBD{
 
     }
     public void IrAmain(View v){
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, pantallaM.class);
         startActivity(intent);
     }
 

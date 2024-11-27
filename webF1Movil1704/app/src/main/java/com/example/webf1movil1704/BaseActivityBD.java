@@ -14,7 +14,7 @@ import java.util.ArrayList;
 
 public class BaseActivityBD  extends AppCompatActivity {
 
-    protected EditText etID,etCodigo,etNombrem,etPrecio;
+    protected EditText etID,etCodigo,etNombrem,etPrecio,et_emoji;
     protected TextView ViID,ViCodigo,ViNombrem,ViPrecio,Viemoji;
     protected Spinner etEmoji;
     protected dbHelper admin;
