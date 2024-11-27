@@ -22,18 +22,18 @@ public class pantallaBorrarP extends BaseActivityBD {
             consultarProductos();
             ArrayAdapter adaptador=new ArrayAdapter(this, android.R.layout.simple_list_item_1,listaInformacion);
             listaProductos.setAdapter(adaptador);
-            /*
+
             listaProductos.setOnItemClickListener((parent, view, position, id) -> {
                 // Obtén el ítem seleccionado
                 int selectedItem = Integer.parseInt(id+"");
 
                 // Crea el Intent para ir al nuevo Activity
-                Intent intent = new Intent(this, mensaje_borrar.class);
+                Intent intent = new Intent(this,pantallaMensaje.class);
 
                 // Envía el dato seleccionado al segundo Activity
                 intent.putExtra("selectedItem", selectedItem+"");
                 startActivity(intent);
-            });*/
+            });
 
 
         }
