@@ -24,5 +24,9 @@ public class pantallaM  extends AppCompatActivity {
         Intent intent = new Intent(this, pantallaBorrarP.class);//cambiar
         startActivity(intent);
     }
+    public void irActualizarBD(View v){
+        Intent intent = new Intent(this, pantallaActualiz.class);//cambiar
+        startActivity(intent);
+    }
 
 }
