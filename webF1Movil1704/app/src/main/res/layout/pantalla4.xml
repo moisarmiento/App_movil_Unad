@@ -39,7 +39,7 @@
         android:layout_marginTop="64dp"
         android:layout_marginBottom="69dp"
         android:onClick="irPantalla3"
-        android:text="Ir a Pantalla 3"
+        android:text="Regresa"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="@+id/navigationView"
         app:layout_constraintStart_toStartOf="parent"
@@ -53,7 +53,7 @@
         android:layout_marginEnd="36dp"
         android:layout_marginBottom="72dp"
         android:onClick="irPantalla5"
-        android:text="Ir Pantalla 5"
+        android:text="Comenta"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />

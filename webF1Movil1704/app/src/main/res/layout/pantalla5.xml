@@ -90,8 +90,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="147dp"
             android:layout_marginBottom="48dp"
-            android:onClick="irPantalla4"
-            android:text="Ir a pantalla 4"
+            android:onClick="irActivityMain"
+            android:text="main"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent" />
 

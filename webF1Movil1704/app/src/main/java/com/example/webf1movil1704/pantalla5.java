@@ -17,8 +17,8 @@ public class pantalla5 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pantalla5);
         }
-    public void irPantalla4 (View v){
-        Intent intent = new Intent(this, pantalla4.class);
+    public void irActivityMain (View v){
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
 
     }
