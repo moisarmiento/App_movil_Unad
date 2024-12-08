@@ -43,17 +43,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <Button
-        android:id="@+id/btnCapturarFoto"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="144dp"
-        android:text="Captura de Foto"
-        android:textSize="14sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Imagen" />
+
 
     <TextView
         android:id="@+id/Nombre1"
@@ -96,15 +86,6 @@
         app:layout_constraintTop_toBottomOf="@+id/Telefono" />
 
 
-    <ImageView
-        android:id="@+id/Imagen"
-        android:layout_width="135dp"
-        android:layout_height="74dp"
-        android:layout_marginTop="200dp"
-        android:src="@drawable/perfil"
-        app:layout_constraintBottom_toTopOf="@+id/btnCapturarFoto"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
